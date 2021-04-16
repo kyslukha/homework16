@@ -13,7 +13,7 @@ public class Main {
         Category categoryFish = new Category("Fish", 3l);
         Category categoryFruits = new Category("Fruits", 4l);
         Category categoryBirds = new Category("Birds", 5l);
-
+// new comment
         Product cheese = new Product("Cheese", new BigDecimal("405.14"), categoryMilk);
         Product chicken = new Product("Chicken", new BigDecimal("80.84"), categoryBirds);
         Product beef = new Product("Beef", new BigDecimal("547.25"), categoryMeat);
