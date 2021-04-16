@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Product> products = new ArrayList<>();
         TreeSet<Product> productsComparator = new TreeSet<>(new ProductComparator());
-
+// commit
         Category categoryMilk = new Category("Milk", 1l);
         Category categoryMeat = new Category("Meat", 2l);
         Category categoryFish = new Category("Fish", 3l);
